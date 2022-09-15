@@ -1,3 +1,18 @@
+//   dynamic logo change
+const logo = document.getElementById("logo");
+
+if (screen.width < 900) {
+  logo.src = "./img/NACOSS site.png";
+} else {
+  window.onscroll = function scroll() {
+    window.scrollY > 45
+      ? (logo.src = "./img/NACOSS site.png")
+      : (logo.src = "./img/footer_nacos.png");
+  };
+
+  scroll();
+}
+
 (function ($) {
   "use strict";
 
@@ -22,17 +37,6 @@
       $(".navbar").removeClass("sticky-top shadow-sm");
     }
   });
-
-  //   dynamic logo change
-  const logo = document.getElementById("logo");
-
-  window.onscroll = function scroll() {
-    window.scrollY > 45
-      ? (logo.src = "./img/NACOSS site.png")
-      : (logo.src = "./img/footer_nacos.png");
-  };
-
-  scroll();
 
   // Dropdown on mouse hover
   const $dropdown = $(".dropdown");
