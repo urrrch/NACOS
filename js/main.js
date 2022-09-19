@@ -131,3 +131,27 @@ if (screen.width < 900) {
     },
   });
 })(jQuery);
+
+// about switch
+
+const mission = document.getElementById("mission");
+const aim = document.getElementById("aims");
+const focus = document.getElementById("focus");
+
+function missionClick() {
+  aim.style.display = "none";
+  focus.style.display = "none";
+  mission.style.display = "block";
+}
+
+function aimClick() {
+  aim.style.display = "block";
+  focus.style.display = "none";
+  mission.style.display = "none";
+}
+
+function focusClick() {
+  aim.style.display = "none";
+  focus.style.display = "block";
+  mission.style.display = "none";
+}
