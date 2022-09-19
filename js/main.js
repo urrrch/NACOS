@@ -150,8 +150,8 @@ function aimClick() {
   mission.style.display = "none";
 }
 
-// function focusClick() {
-//   aim.style.display = "none";
-//   focus.style.display = "block";
-//   mission.style.display = "none";
-// }
+function focusClick() {
+  aim.style.display = "none";
+  focus.style.display = "block";
+  mission.style.display = "none";
+}
