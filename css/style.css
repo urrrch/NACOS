@@ -163,6 +163,11 @@ h6,
   border-color: var(--primary) !important;
 }
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> c760e03e3e8e19775308df6be3d5155aed1cce90
 /* about page switches */
 
 #about-deal-header {
@@ -568,6 +573,7 @@ h6,
 .w {
   display: flex;
 }
+<<<<<<< HEAD
 .box {
   margin: 0;
   padding: 20px auto;
@@ -598,3 +604,8 @@ h6,
 
   width: 100%;
 }
+=======
+#about {
+  display: inline-block;
+}
+>>>>>>> c760e03e3e8e19775308df6be3d5155aed1cce90
