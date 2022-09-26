@@ -529,6 +529,52 @@ h6,
   transform: scale(1.15);
 }
 
+.whatwd__session {
+  background-color: #138601;
+  padding: 100px 30px;
+}
+
+.whatwd__session__header {
+  text-align: center;
+}
+
+.whatwd__session__header h3 {
+  font-size: 70px;
+  color: white;
+}
+
+.whatwd__session__header p {
+  line-height: 30px;
+}
+
+.whatwd__session__boxes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.whatwd__session__boxes__box {
+  padding: 30px;
+  border: 1px solid white;
+  text-align: center;
+  margin: 10px;
+}
+
+.whatwd__session__boxes__box__text {
+  text-transform: uppercase;
+  font-size: 15px;
+  font-weight: bold;
+  margin: 10px 0px;
+}
+
+.whatwd__session__boxes__box__btn {
+  background-color: #34ad54;
+  color: white;
+  padding: 10px 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
 /*** Miscellaneous ***/
 @media (min-width: 991.98px) {
   .facts {
